@@ -1,0 +1,73 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(to right bottom, rgb(50, 50, 50), rgb(0, 0, 0));
+    min-height: 100vh;
+    overflow-x: inherit;
+    color: white;
+}
+
+.profile-picture {
+    max-width: 15rem;
+    min-width: 5rem;
+    align-self: center;
+    padding: 0.75rem;
+    border: 1px solid transparent;
+    border-radius: 5rem;
+    box-sizing: border-box;
+}
+
+.card {
+    color: white;
+    background: transparent;
+    border: 2px solid beige;
+    box-sizing: border-box;
+    width:auto;
+    height:fit-content
+}
+
+.content-text {
+    margin: 0;
+    padding: 0;
+}
+
+.content-text::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+h5.card-title {
+    font-size: 1.8rem;
+}
+
+h6.card-title {
+    font-size: 1.5rem;
+}
+
+p.content-text {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-row {
+    margin-top: 2.5rem;
+    margin-bottom: auto;
+}
+
+#footer-text {
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-align: center;
+}
+
+#coming-soon {
+    text-align: center;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+}
